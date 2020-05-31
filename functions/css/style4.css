@@ -1,0 +1,17 @@
+button{
+    width: 120px;
+   
+    background-color: salmon;
+    font-size: larger;
+}
+
+#elements
+{
+    font-size: 20px;
+    color: midnightblue;
+}
+#another
+{
+    font-size: 20px;
+    color: orangered;
+}

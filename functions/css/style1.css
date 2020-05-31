@@ -1,0 +1,31 @@
+.closed
+{
+    display :none;
+}
+.open
+{
+    display:block;
+}
+button{
+    width:200px;
+    background-color: blueviolet;
+    font-size: medium;
+    margin-left: 15px;
+
+}
+#demo
+{
+    background-color: darkgreen;
+    font-size: 80px;
+    padding: 15px;
+    color: white;
+}
+#change
+{
+    background-color: rosybrown;
+    font-size: medium;
+}
+#date
+{
+    font-size: 25px;
+}

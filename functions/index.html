@@ -5,10 +5,22 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style1.css'>
+    <script src='js/script1.js'></script>
 </head>
 <body>
+    <h1>Modifying the DOM</h1>
+    <button onclick="document.getElementById('change').innerHTML = 'click changes'">First </button>
+    <button onclick="document.getElementById('change').innerHTML= 'clicked second time'">Second</button>
+    <p>This will not change</p>
+    <p id="change">Changes it</p>
+    <button type = "button" onclick= "openMe()">Open me!</button>
+    <button type="button" onclick="closeMe()">Close!</button>
+    <p id="demo">Extra details...You can open and close this paragraph using the buttons above.</p>
+
+    <h1>JavaScript Date function</h1>
+    <p id="date">This is a paragraph.</p>
+    <button type="button" onclick="displayDate()">Display Date</button>
     
 </body>
 </html>
